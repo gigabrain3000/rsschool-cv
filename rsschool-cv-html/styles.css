@@ -8,13 +8,14 @@ body {
 }
 header {
     margin: auto;
-    width: 33%;
+    max-width: 540px;
 }
 main {
     width: 100%;
 }
 footer {
     width: 100%;
+    background-color: #999;
 }
 a {
     color: #222;
@@ -22,6 +23,11 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.upright {
+    margin: 0;
+    width: 10px;
+    height: 10px;
 }
 h1 {
     color: #444;
@@ -55,32 +61,32 @@ h3 {
     margin: 5px 0;
 }
 .infoblock {
-    margin: 0px auto 60px auto;
+    margin: 0px auto 30px auto;
     max-width: 540px;
     line-height: 1.5em;
 }
 .infoblock li {
     margin-left: 0;
+    margin-bottom: 8px;
 }
 .stage {
     display: grid;
     grid-template-columns: 25% 100%;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .stage p {
     margin: 0;
 }
-.year {
+.firstcol {
     width: max-content;
     color: #888;
 }
-.place {
+.secondcol {
     width: 75%;
 }
-.resource {
-    width: max-content;
-    color: #888;
+.contactlist {
+    padding-inline-start: 0px;
 }
-.contact {
-    width: 75%;
+.codewarscode {
+    margin: 0;
 }

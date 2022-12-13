@@ -1,6 +1,86 @@
 body {
     margin: 0;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #fafafa;
+    color: #666;
+    font-size: 14px;
+    font-family: "Graphik", sans-serif;
+    font-weight: 400;
+}
+header {
+    margin: auto;
+    width: 33%;
+}
+main {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: #444;
+    font-size: 24px;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 18px;
+}
+h3 {
+    font-weight: 300;
+    color: #444;
     font-size: 16px;
+}
+.meblock {
+    display: flex;
+    padding: 50px 0 20px 0;
+}
+.avatar {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+.headertitle {
+    margin-left: 20px;
+}
+.headertitle p {
+    margin: 5px 0;
+}
+.infoblock {
+    margin: 0px auto 60px auto;
+    max-width: 540px;
+    line-height: 1.5em;
+}
+.infoblock li {
+    margin-left: 0;
+}
+.stage {
+    display: grid;
+    grid-template-columns: 25% 100%;
+    margin: 30px 0;
+}
+.stage p {
+    margin: 0;
+}
+.year {
+    width: max-content;
+    color: #888;
+}
+.place {
+    width: 75%;
+}
+.resource {
+    width: max-content;
+    color: #888;
+}
+.contact {
+    width: 75%;
 }

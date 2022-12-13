@@ -15,7 +15,12 @@ main {
 }
 footer {
     width: 100%;
-    background-color: #999;
+}
+nav {
+    max-width: 540px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr;
+    margin: 60px auto 25px auto;
 }
 a {
     color: #222;
@@ -89,4 +94,21 @@ h3 {
 }
 .codewarscode {
     margin: 0;
+}
+.footerpart {
+    margin: auto 10px;
+}
+.githublogo {
+    width: 40px;
+}
+.rsschoollogo {
+    width: 100px;
+    height: 40px;
+}
+.releasedate {
+    color: #000000;
+    font-size: 1em;
+}
+#end.footerpart {
+    text-align: right;
 }

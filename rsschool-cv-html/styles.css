@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+    color: #666;
+    font-size: 14px;
+    font-family: "Graphik", sans-serif;
+    font-weight: 400;
+}
+header {
+    margin: auto;
+    max-width: 540px;
+}
+main {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+nav {
+    max-width: 540px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr;
+    margin: 60px auto 25px auto;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.upright {
+    margin: 0;
+    width: 10px;
+    height: 10px;
+}
+h1 {
+    color: #444;
+    font-size: 24px;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+h2 {
+    font-weight: 300;
+    color: #444;
+    font-size: 18px;
+}
+h3 {
+    font-weight: 300;
+    color: #444;
+    font-size: 16px;
+}
+.meblock {
+    display: flex;
+    padding: 50px 0 20px 0;
+}
+.avatar {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+}
+.headertitle {
+    margin-left: 20px;
+}
+.headertitle p {
+    margin: 5px 0;
+}
+.infoblock {
+    margin: 0px auto 30px auto;
+    max-width: 540px;
+    line-height: 1.5em;
+}
+.infoblock li {
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+.stage {
+    display: grid;
+    grid-template-columns: 25% 100%;
+    margin: 20px 0;
+}
+.stage p {
+    margin: 0;
+}
+.firstcol {
+    width: max-content;
+    color: #888;
+}
+.secondcol {
+    width: 75%;
+}
+.contactlist {
+    padding-inline-start: 0px;
+}
+.codewarscode {
+    margin: 0;
+}
+.footerpart {
+    margin: auto 10px;
+}
+.githublogo {
+    width: 40px;
+}
+.rsschoollogo {
+    width: 100px;
+    height: 40px;
+}
+.releasedate {
+    color: #000000;
+    font-size: 1em;
+}
+#end.footerpart {
+    text-align: right;
+}
